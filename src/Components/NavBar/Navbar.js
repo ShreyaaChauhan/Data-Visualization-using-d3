@@ -21,7 +21,6 @@ import {
   Home,
   Apps,
   ContactMail,
-  SettingsInputAntennaTwoTone,
 } from "@material-ui/icons";
 import avatar from "../Images/avatar.png";
 
