@@ -8,11 +8,12 @@ import Header from "./Components/Header/Header";
 import { BrowserRouter, Route } from "react-router-dom";
 import notfound from "./Components/notfound";
 import CsvFiles from "./Components/CsvFiles/CsvFiles";
+import MouseEvents from "./Components/MouseEvents/MouseEvents";
 
 const useStyles = makeStyles({
   particlesCanva: {
     position: "absolute",
-    zIndex: 0,
+    zIndex: -100,
   },
 });
 
@@ -48,6 +49,7 @@ function App() {
         <Route path="/home" component={Header} />
         <Route path="/svg" component={SmileyFaceSVG} />
         <Route path="/csv" component={CsvFiles} />
+        <Route path="/mouse" component={MouseEvents}/>
       </div>
     </BrowserRouter>
   );

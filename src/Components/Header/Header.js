@@ -28,16 +28,16 @@ const Header = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <Post
-          href="/home"
+          href="/csv"
           title="Working with CSV files"
           cardContent="A program that loads and parses some CSV data"
         />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <Post
-          href="/home"
-          title="Yet I have to decide"
-          cardContent="This is being developed"
+          href="/mouse"
+          title="Interaction with React"
+          cardContent="This will use useState from React to track mouse events"
         />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
