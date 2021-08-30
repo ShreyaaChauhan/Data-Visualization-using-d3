@@ -46,18 +46,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
+    href: "/home",
   },
   {
     listIcon: <AssignmentInd />,
     listText: "Resume",
+    href: "/home",
   },
   {
     listIcon: <Apps />,
     listText: "Portfolio",
+    href: "https://shreyaachauhan.github.io/myportfolio/",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
+    href: "/home",
   },
 ];
 
@@ -83,10 +87,12 @@ const NavBar = () => {
             <ListItemIcon className={classes.listItem}>
               {lsItem.listIcon}
             </ListItemIcon>
-            <ListItemText
-              className={classes.listItem}
-              primary={lsItem.listText}
-            />
+            <a href={lsItem.href}>
+              <ListItemText
+                className={classes.listItem}
+                primary={lsItem.listText}
+              />
+            </a>
           </ListItem>
         ))}
       </List>
