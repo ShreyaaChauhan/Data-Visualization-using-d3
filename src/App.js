@@ -10,6 +10,7 @@ import notfound from "./Components/notfound";
 import CsvFiles from "./Components/CsvFiles/CsvFiles";
 import MouseEvents from "./Components/MouseEvents/MouseEvents";
 
+
 const useStyles = makeStyles({
   particlesCanva: {
     position: "absolute",
@@ -50,6 +51,7 @@ function App() {
         <Route path="/svg" component={SmileyFaceSVG} />
         <Route path="/csv" component={CsvFiles} />
         <Route path="/mouse" component={MouseEvents}/>
+       
       </div>
     </BrowserRouter>
   );

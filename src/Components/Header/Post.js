@@ -60,7 +60,7 @@ const Post = (props) => {
             image={Background}
             title={props.title}
           />
-          <CardContent>
+          <CardContent className="cardContent">
             <Typography gutterBottom variant="h5" component="h2">
               {props.title}
             </Typography>

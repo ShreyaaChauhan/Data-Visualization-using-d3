@@ -30,7 +30,7 @@ const Header = () => {
         <Post
           href="/csv"
           title="Working with CSV files"
-          cardContent="A program that loads and parses some CSV data"
+          cardContent="A program that loads and parses some CSV data. This also includes functionality such as Parsing CSV data with D3, counting rows and columns and Estimating data size and constructing and displaying text "
         />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
@@ -42,9 +42,9 @@ const Header = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <Post
-          href="/home"
-          title="Yet I have to decide"
-          cardContent="This is being developed"
+          href="/d3csv"
+          title=""
+          cardContent=" "
         />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
