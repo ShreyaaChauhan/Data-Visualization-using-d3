@@ -35,7 +35,7 @@ const StyledButton = withStyles({
 
 const useStyles = makeStyles({
   header: {
-    padding: 40,
+    padding: 75,
   },
   card: {
     borderRadius: 16,
@@ -48,7 +48,6 @@ const useStyles = makeStyles({
   },
   media: {
     height: 200,
-    width: 300,
   },
 });
 const Post = (props) => {
