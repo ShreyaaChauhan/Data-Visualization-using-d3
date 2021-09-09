@@ -61,7 +61,7 @@ const menuItems = [
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
-    href: "/home",
+    href: "https://shreyaachauhan.github.io/myportfolio/#contacts",
   },
 ];
 
