@@ -10,6 +10,7 @@ import notfound from "./Components/notfound";
 import CsvFiles from "./Components/CsvFiles/CsvFiles";
 import MouseEvents from "./Components/MouseEvents/MouseEvents";
 import DataViz from "./Components/DataViz/DataViz";
+import BarChart from "./Components/BarChart/BarChart";
 
 const useStyles = makeStyles({
   particlesCanva: {
@@ -55,6 +56,7 @@ function App() {
         <Route path="/csv" component={CsvFiles} />
         <Route path="/mouse" component={MouseEvents}/>
         <Route path="/dataviz" component={DataViz}/>
+        <Route path="/barchart" component={BarChart}/>
       </div>
     </BrowserRouter>
   );

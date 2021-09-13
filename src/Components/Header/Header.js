@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import PieChart from "../Images/PieChart.png";
 import ReactInteraction from "../Images/ReactInteraction.png";
 import SmileyFace from "../Images/SmileyFace.png";
+import CsvTable from "../Images/CsvTable.png";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -35,7 +36,7 @@ const Header = () => {
           href="/csv"
           title="Working with CSV files"
           cardContent="A program that loads and parses some CSV data. This also includes functionality such as Parsing CSV data with D3, counting rows and columns and Estimating data size and constructing and displaying text "
-          src={SmileyFace}
+          src={CsvTable}
         />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
